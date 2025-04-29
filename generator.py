@@ -103,8 +103,8 @@ def create_pdf_report(
 
     # Institute Header
     story.append(Paragraph(institute_name.upper(), title_style))
-    story.append(Paragraph("Opp. Science city, Sola-Bhadaj Road, Ahmedabad, Gujarat 380060", subtitle_style))
-    story.append(Paragraph("Ph: 07967129000 Website: www.sal.edu.in", subtitle_style))
+    story.append(Paragraph("Ahmedabad, Gujarat", subtitle_style))
+    story.append(Paragraph("Ph: 07967129000 Website: www.ljku.edu.in", subtitle_style))
     story.append(Paragraph("Student's Weekly Report of Internship", title_style))
     story.append(Spacer(1, 12))
 
